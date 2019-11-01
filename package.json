@@ -1,0 +1,8 @@
+{
+  "name": "react-race-chart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:genexu/react-race-chart.git",
+  "author": "Gene Xu <genexu1117@gmail.com>",
+  "license": "MIT"
+}
