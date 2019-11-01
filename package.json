@@ -1,8 +1,18 @@
 {
   "name": "react-race-chart",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/react-race-chart.js",
+  "esm": "dist/react-race-chart.js",
+  "umd": "dist/react-race-chart.umd.js",
+  "cjs": "dist/react-race-chart.cjs.js",
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "start": "rollup -c ./rollup.config.js -w"
+  },
   "repository": "git@github.com:genexu/react-race-chart.git",
   "author": "Gene Xu <genexu1117@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^1.26.2"
+  }
 }
