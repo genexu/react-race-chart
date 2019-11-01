@@ -7,12 +7,21 @@
   "cjs": "dist/react-race-chart.cjs.js",
   "scripts": {
     "build": "rollup -c ./rollup.config.js",
-    "start": "rollup -c ./rollup.config.js -w"
+    "start": "rollup -c ./rollup.config.js -w",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": "git@github.com:genexu/react-race-chart.git",
   "author": "Gene Xu <genexu1117@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6",
     "rollup": "^1.26.2"
-  }
+  },
+  "dependencies": {}
 }
